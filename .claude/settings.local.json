@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import onnxruntime as ort; s = ort.InferenceSession\\(r'C:\\\\Users\\\\knot\\\\Documents\\\\Projects\\\\darts-score-detection\\\\models\\\\ssd\\\\ssd-mobilenet.onnx'\\); print\\('IN', [\\(i.name, i.shape\\) for i in s.get_inputs\\(\\)]\\); print\\('OUT', [\\(o.name, o.shape\\) for o in s.get_outputs\\(\\)]\\)\")",
+      "Bash(py --version)",
+      "Bash(py -c \"import sys; print\\(sys.version\\)\")",
+      "PowerShell(py --version)",
+      "PowerShell(python --version)"
+    ]
+  }
+}

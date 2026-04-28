@@ -7,6 +7,7 @@ Example:
   python darts_score_detection_offline.py --input path/to/image.jpg
   python darts_score_detection_offline.py --input 1 --capture
 """
+
 import argparse
 import math
 import os
